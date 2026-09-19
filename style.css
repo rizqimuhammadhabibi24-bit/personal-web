@@ -17,7 +17,7 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-main-header {
+#main-header {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -74,6 +74,51 @@ h2 {
     border: 3px solid #3182ce;
     margin: 15px auto;
     display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px 14px;
+    border: 1px solid #cbd5e0;
+    text-align: left;
+}
+
+th {
+    background-color: #ebf8ff;
+    color: #2b6cb0;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #2b6cb0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2f855a;
+}
+
+input[type="reset"]:hover {
+    background-color: #c53030;
 }
 
 footer {
